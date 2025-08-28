@@ -1,4 +1,4 @@
-# stroke-risk-prediction
+# Stroke-Risk-Prediction
 Machine learning project exploring stroke risk prediction using logistic regression, developed for UWE Bristol’s Masters Machine Learning and Predictive Analytics Module.
 
 Stroke Risk Prediction Using Machine Learning
