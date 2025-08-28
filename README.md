@@ -20,19 +20,13 @@ Potential impact: More than 50 million pounds in annual savings per 100000 patie
 
 Repository Contents
 
-stroke prediction ml
-
-docs	- Project report and figures
+stroke prediction 
 
 data - 	Raw and cleaned datasets
 
-src	- Data processing and model scripts
+notebooks - Data processing, Analysis and Outputs.
 
-notebooks -	Jupyter notebooks for analysis
-
-results - Model outputs and metrics
-
-requirements.txt -	Python dependencies
+Read.me
 
 
 Installation
