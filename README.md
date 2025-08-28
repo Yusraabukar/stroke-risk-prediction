@@ -16,26 +16,28 @@ Potential impact: More than 50 million pounds in annual savings per 100000 patie
 
 Repository Contents
 stroke prediction ml
-docs	Project report and figures
-data	Raw and cleaned datasets
-src	Data processing and model scripts
-notebooks  	Jupyter notebooks for analysis
-results  	Model outputs and metrics
-requirements.txt               	Python dependencies
+docs	- Project report and figures
+data - 	Raw and cleaned datasets
+src	- Data processing and model scripts
+notebooks -	Jupyter notebooks for analysis
+results - Model outputs and metrics
+requirements.txt -	Python dependencies
 
 
 Installation
-git clone https://github.com/[your username]/stroke prediction ml.git
-cd stroke prediction ml
+git clone https://github.com/Yusraabukar/stroke-risk-prediction.git
+cd stroke-risk-prediction
 pip install -r requirements.txt
 
 
 Methodology
 Dataset Details
 
-•	5110 patient records with 12 clinical and demographic features
-•	4.87 percent stroke prevalence
-•	3.9 percent missing BMI values addressed with median imputation
+•	5110 anonymised patient records
+•	12 features, including age, BMI, hypertension, heart disease, and glucose level
+•	4.87 percent positive stroke cases
+•	3.9 percent missing BMI values imputed using the median
+
 
 Analytical Strategy
 
@@ -44,11 +46,7 @@ Multivariate analysis was chosen over bivariate for better performance:
 •	Age-only model AUC: 0.834
 •	For example, a 68 year old patient had a predicted stroke risk of 12 percent using age alone, which increased to 28 percent when hypertension was included
 
-Model Comparison
-Algorithm	ROC AUC	Clinical Suitability	Notes
-Logistic Regression	0.839	Suitable	Selected due to transparency
-Random Forest	0.821	Less suitable	Complexity of ensemble methods
-Support Vector Machine	0.796	Not suitable	Limited interpretability
+<img width="791" height="167" alt="image" src="https://github.com/user-attachments/assets/0f80157e-1670-4b34-8e55-11214b026a16" />
 
 Logistic regression was selected for its strong performance and clear interpretability, which are essential for clinical deployment.
 
