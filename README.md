@@ -76,6 +76,7 @@ Coursework Objectives Covered
 •	Justifying the choice of model and rejecting unsuitable alternatives
 
 Limitations
+
 •	Imbalanced dataset affects precision
 •	Results are based on a single source of data
 •	The dataset is cross sectional and does not allow temporal analysis
