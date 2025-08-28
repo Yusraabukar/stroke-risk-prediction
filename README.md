@@ -34,16 +34,22 @@ Methodology
 Dataset Details
 
 •	5110 anonymised patient records
+
 •	12 features, including age, BMI, hypertension, heart disease, and glucose level
+
 •	4.87 percent positive stroke cases
+
 •	3.9 percent missing BMI values imputed using the median
 
 
 Analytical Strategy
 
 Multivariate analysis was chosen over bivariate for better performance:
+
 •	Full model AUC: 0.839
+
 •	Age-only model AUC: 0.834
+
 •	For example, a 68 year old patient had a predicted stroke risk of 12 percent using age alone, which increased to 28 percent when hypertension was included
 
 <img width="791" height="167" alt="image" src="https://github.com/user-attachments/assets/0f80157e-1670-4b34-8e55-11214b026a16" />
@@ -53,8 +59,11 @@ Logistic regression was selected for its strong performance and clear interpreta
 Key Findings
 Risk Factors
 •	Age: Each additional decade increases the odds of stroke by 2.8 times
+
 •	Heart disease: Increases risk by 3.4 times
+
 •	Hypertension: 2.3 times higher risk
+
 •	High glucose: 1.9 times higher risk
 
 Age Threshold Effect
@@ -63,20 +72,29 @@ Age Threshold Effect
 
 Clinical Application
 •	High risk group (above 15 percent): Up to 25 strokes prevented per 1000 screened
+
 •	Estimated cost of implementation: Less than 150000 pounds
+
 •	Return on investment estimated at ten to one
 
 Coursework Objectives Covered
 
 •	Identifying a real-world healthcare problem suitable for machine learning
+
 •	Analysing dataset properties and feature characteristics
+
 •	Comparing bivariate and multivariate approaches
+
 •	Selecting and evaluating supervised learning algorithms
+
 •	Applying healthcare-appropriate evaluation metrics
+
 •	Justifying the choice of model and rejecting unsuitable alternatives
 
 Limitations
 
 •	Imbalanced dataset affects precision
+
 •	Results are based on a single source of data
+
 •	The dataset is cross sectional and does not allow temporal analysis
