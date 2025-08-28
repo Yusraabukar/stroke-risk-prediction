@@ -9,18 +9,29 @@ Research Question
 Can we accurately predict stroke risk using patient-level demographic and clinical information, and which algorithm provides the best balance between interpretability and performance?
 
 Key Results
+
 Model performance: ROC AUC of 0.839 using logistic regression
+
 Dataset: 5110 patient records with 4.87 percent positive stroke cases
+
 Main insight: Stroke patients were on average 25.7 years older than those without stroke
+
 Potential impact: More than 50 million pounds in annual savings per 100000 patients screened
 
 Repository Contents
+
 stroke prediction ml
+
 docs	- Project report and figures
+
 data - 	Raw and cleaned datasets
+
 src	- Data processing and model scripts
+
 notebooks -	Jupyter notebooks for analysis
+
 results - Model outputs and metrics
+
 requirements.txt -	Python dependencies
 
 
