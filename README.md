@@ -31,47 +31,54 @@ readme.md – Project overview
 
 <img width="655" height="237" alt="image" src="https://github.com/user-attachments/assets/6dbd2f99-0fee-479c-9d90-263ba10681f3" />
 
-Logistic regression was selected for its strong performance and clear interpretability, which are essential for clinical deployment.
+Logistic regression was selected as the final model due to its strong predictive performance (ROC AUC = 0.839) and transparent coefficient structure, making it suitable for clinical deployment. Alternative models (Naïve Bayes, Random Forest, and SVM) were tested but rejected due to weaker performance or limited interpretability.
 
 Key Findings
+
 Risk Factors
-•	Age: Each additional decade increases the odds of stroke by 2.8 times
 
-•	Heart disease: Increases risk by 3.4 times
+Age: Each decade increases stroke odds by ~2.8×
 
-•	Hypertension: 2.3 times higher risk
+Heart disease: Increases risk by ~3.4×
 
-•	High glucose: 1.9 times higher risk
+Hypertension: Raises risk by ~2.3×
+
+High glucose (>126 mg/dL): Raises risk by ~1.9×
 
 Age Threshold Effect
-•	Under 30 years: 0.13 percent stroke rate
-•	Over 70 years: 17.75 percent stroke rate (133 times increase)
+
+Under 30 years: 0.13% stroke rate
+
+Over 70 years: 17.75% stroke rate (≈133× increase)
 
 Clinical Application
-•	High risk group (above 15 percent): Up to 25 strokes prevented per 1000 screened
 
-•	Estimated cost of implementation: Less than 150000 pounds
+High-risk group (>15% probability): Up to 25 strokes prevented per 1,000 screened
 
-•	Return on investment estimated at ten to one
+Implementation cost: <£150,000
+
+ROI: Estimated at 10:1, reflecting ~£50–75 million annual savings per 100,000 patients screened
 
 Coursework Objectives Covered
 
-•	Identifying a real-world healthcare problem suitable for machine learning
+Identified a real-world healthcare problem suitable for machine learning
 
-•	Analysing dataset properties and feature characteristics
+Analysed dataset properties and feature characteristics
 
-•	Comparing bivariate and multivariate approaches
+Compared bivariate and multivariate analytical strategies
 
-•	Selecting and evaluating supervised learning algorithms
+Selected and evaluated multiple supervised learning algorithms
 
-•	Applying healthcare-appropriate evaluation metrics
+Applied healthcare-appropriate evaluation metrics (ROC-AUC, sensitivity, specificity, PR-AUC)
 
-•	Justifying the choice of model and rejecting unsuitable alternatives
+Justified model choice and rejected unsuitable alternatives
 
 Limitations
 
-•	Imbalanced dataset affects precision
+Severe class imbalance (4.87% stroke cases) affects precision performance
 
-•	Results are based on a single source of data
+Results are based on a single dataset source
 
-•	The dataset is cross sectional and does not allow temporal analysis
+Cross-sectional design prevents temporal or longitudinal validation
+
+
