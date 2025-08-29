@@ -57,7 +57,7 @@ Multivariate analysis was chosen over bivariate for better performance:
 
 •	For example, a 68 year old patient had a predicted stroke risk of 12 percent using age alone, which increased to 28 percent when hypertension was included
 
-<img width="791" height="167" alt="image" src="https://github.com/user-attachments/assets/0f80157e-1670-4b34-8e55-11214b026a16" />
+<img width="655" height="237" alt="image" src="https://github.com/user-attachments/assets/6dbd2f99-0fee-479c-9d90-263ba10681f3" />
 
 Logistic regression was selected for its strong performance and clear interpretability, which are essential for clinical deployment.
 
