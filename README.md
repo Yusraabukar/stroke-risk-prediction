@@ -1,61 +1,33 @@
-# Stroke-Risk-Prediction
 Machine learning project exploring stroke risk prediction using logistic regression, developed for UWE Bristol’s Masters Machine Learning and Predictive Analytics Module.
 
 Stroke Risk Prediction Using Machine Learning
+
 A machine learning analysis focused on predicting the risk of stroke using clinical and demographic patient data. The final model, based on logistic regression, achieved a ROC AUC score of 0.839.
+
 Overview
+
 This repository contains coursework submitted for UFCFMJ15M Machine Learning and Predictive Analytics at the University of the West of England (UWE Bristol). The project demonstrates how exploratory data analysis can guide model selection for clinical prediction tasks.
-Research Question
+
+Research Question:
 Can we accurately predict stroke risk using patient-level demographic and clinical information, and which algorithm provides the best balance between interpretability and performance?
 
 Key Results
 
-Model performance: ROC AUC of 0.839 using logistic regression
+Model comparison: Logistic Regression (0.839 ROC AUC) outperformed Naïve Bayes (0.825), Random Forest (0.821), and Support Vector Machine (0.796).
 
-Dataset: 5110 patient records with 4.87 percent positive stroke cases
+Dataset: 5,110 patient records with 4.87% positive stroke cases.
 
-Main insight: Stroke patients were on average 25.7 years older than those without stroke
+Main insight: Stroke patients were on average 25.7 years older than those without stroke.
 
-Potential impact: More than 50 million pounds in annual savings per 100000 patients screened
+Potential impact: More than £50 million annual savings per 100,000 patients screened through targeted prevention.
 
 Repository Contents
 
-stroke prediction 
+data/ – Raw and cleaned datasets
 
-data - 	Raw and cleaned datasets
+notebooks/ – Data preprocessing, analysis, and model comparison experiments (Logistic Regression, SVM, Naïve Bayes, Random Forest)
 
-notebooks - Data processing, Analysis and Outputs.
-
-Read.me
-
-
-Installation
-git clone https://github.com/Yusraabukar/stroke-risk-prediction.git
-cd stroke-risk-prediction
-pip install -r requirements.txt
-
-
-Methodology
-Dataset Details
-
-•	5110 anonymised patient records
-
-•	12 features, including age, BMI, hypertension, heart disease, and glucose level
-
-•	4.87 percent positive stroke cases
-
-•	3.9 percent missing BMI values imputed using the median
-
-
-Analytical Strategy
-
-Multivariate analysis was chosen over bivariate for better performance:
-
-•	Full model AUC: 0.839
-
-•	Age-only model AUC: 0.834
-
-•	For example, a 68 year old patient had a predicted stroke risk of 12 percent using age alone, which increased to 28 percent when hypertension was included
+readme.md – Project overview
 
 <img width="655" height="237" alt="image" src="https://github.com/user-attachments/assets/6dbd2f99-0fee-479c-9d90-263ba10681f3" />
 
